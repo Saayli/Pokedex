@@ -2,10 +2,10 @@ Bonjour cher correcteur, voici mon Pokedex ! Il comporte 1008 pokemons, il y a u
 
 # Installation - Lancement
 
-Tout d'abord, veuillez cloner le projet.
+Tout d'abord, veuillez cloner le projet. \
 Ensuite, vous pourrez sur votre IDE, accéder au terminal et lancer la commande suivante, une fois à l'intérieur du dossier "MyPokedex": 
-  Python  manage.py  runserver
-Vous pourrez ensuite vous dirigez sur le lien afficher dans le terminal.
+  - Python  manage.py  runserver
+Vous pourrez ensuite vous dirigez sur le lien afficher dans le terminal.\
 
 # Tutoriel
 
@@ -18,8 +18,8 @@ L'application est très simple d'utilisation, vous pouvez :
 
 # Histoire - Choix
 
-Django est tout nouveau pour moi contrairement aux librairies graphiques donc je me suis plutôt dirigé vers cette solution. \n
-J'ai tout de suite su à quoi allait ressembler mon pokedex, c'est pourquoi j'ai tout fais pour qu'il y ressemble le plus possible malgré le fait que peu d'informations y soit affichées, et j'adore la tête qu'il a ^^. \n
+Django est tout nouveau pour moi contrairement aux librairies graphiques donc je me suis plutôt dirigé vers cette solution. \
+J'ai tout de suite su à quoi allait ressembler mon pokedex, c'est pourquoi j'ai tout fais pour qu'il y ressemble le plus possible malgré le fait que peu d'informations y soit affichées, et j'adore la tête qu'il a ^^. \
 Je n'avais jamais stocké de données en cache, je pense que j'aurais dû soit apprendre une manière un peu plus complexe de l'utiliser soit utiliser tout simplement une base de donnée,
 parce qu'avec le composant "cache" on est très vite restreint par le nombre de méthode qu'il détient.
 
