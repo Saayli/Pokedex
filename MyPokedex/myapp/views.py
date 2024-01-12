@@ -8,7 +8,7 @@ from django.core.cache import cache
 from .utils import *
 
 
-def index(request, id):
+def index(request, id = 1):
     pokemon = get_pokemon(id)
 
     context = {
