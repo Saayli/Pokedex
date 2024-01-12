@@ -4,8 +4,8 @@ Bonjour cher correcteur, voici mon Pokedex ! Il comporte 1008 pokemons, il y a u
 
 Tout d'abord, veuillez cloner le projet. \
 Ensuite, vous pourrez sur votre IDE, accéder au terminal et lancer la commande suivante, une fois à l'intérieur du dossier "MyPokedex": 
-  - Python  manage.py  runserver
-Vous pourrez ensuite vous dirigez sur le lien afficher dans le terminal. \
+  - Python  manage.py  runserver  
+Vous pourrez ensuite vous dirigez sur le lien afficher dans le terminal.
 
 # Tutoriel
 
