@@ -1,0 +1,46 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Links -->
+  <link rel="icon" href="{% static 'myapp/favicons/pokeball' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'myapp/css/style.css' %}">
+
+  <!-- Main JS
+  <script defer src="{% static 'myapp/js/script.js' %}"></script>
+-->
+  <title>Pokédex - {{search}}</title>
+</head>
+<body>
+  <main>
+    <img src={{ pokemon.img }} alt="pokemon" class="pokemon__image">
+
+    <h1 class="pokemon__data">
+      <span class="pokemon__number">{{ pokemon.id_pokemon }}</span> -
+      <span class="pokemon__name">{{ pokemon.name }}</span>
+    </h1>
+
+    <form action="{% url 'search' %}" class="form" method="get">
+      <input
+        type="search"
+        class="input__search"
+        placeholder="Name or Number"
+        name="search"
+        required
+      />
+    </form>
+
+
+    <div class="buttons">
+      <a href="{% url 'previous_pokemon' id=pokemon.id_pokemon %}" class="button btn-prev">< Prev</a>
+      <a href="{% url 'next_pokemon' id=pokemon.id_pokemon %}" class="button btn-next">Next &gt;</a>
+    </div>
+    <img src="../static/myapp/images/pokedex.png" alt="pokedex" class="pokedex">
+  </main>
+
+</body>
+</html>

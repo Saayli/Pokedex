@@ -1,0 +1,72 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Links -->
+    <link rel="icon" href="{% static 'myapp/favicons/pokeball' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'myapp/css/style.css' %}">
+
+    <!-- Main JS
+    <script defer src="{% static 'myapp/js/script.js' %}"></script>
+  -->
+    <title>Team</title>
+</head>
+<body>
+<main>
+    <div class="grid">
+        <div class="empty-card">
+            <p>{{ pokemon.0.name }}</p>
+            <form method="post" action="{% url 'remove_team' key=0 %}">
+                {% csrf_token %}
+                <button type="submit" class="button">Remove</button>
+            </form>
+        </div>
+        <div class="empty-card">
+            <p>{{ pokemon.1.name }}</p>
+            <form method="post" action="{% url 'remove_team' key=1 %}">
+                {% csrf_token %}
+                <button type="submit" class="button">Remove</button>
+            </form>
+
+        </div>
+        <div class="empty-card">
+            <p>{{ pokemon.2.name }}</p>
+            <form method="post" action="{% url 'remove_team' key=2%}">
+                {% csrf_token %}
+                <button type="submit" class="button">Remove</button>
+            </form>
+
+        </div>
+        <div class="empty-card">
+            <p>{{ pokemon.3.name }}</p>
+            <form method="post" action="{% url 'remove_team' key=3 %}">
+                {% csrf_token %}
+                <button type="submit" class="button">Remove</button>
+            </form>
+
+        </div>
+        <div class="empty-card">
+            <p>{{ pokemon.4.name }}</p>
+            <form method="post" action="{% url 'remove_team' key=4 %}">
+                {% csrf_token %}
+                <button type="submit" class="button">Remove</button>
+            </form>
+
+        </div>
+        <div class="empty-card">
+            <p>{{ pokemon.5.name }}</p>
+            <form method="post" action="{% url 'remove_team' key=5 %}">
+                {% csrf_token %}
+                <button type="submit" class="button">Remove</button>
+            </form>
+
+        </div>
+    </div>
+</main>
+
+</body>
+</html>
