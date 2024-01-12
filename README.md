@@ -18,16 +18,16 @@ L'application est très simple d'utilisation, vous pouvez :
 
 # Histoire - Choix
 
-Django est tout nouveau pour moi contrairement aux librairies graphiques donc je me suis plutôt dirigé vers cette solution. J'ai tout de suite su à quoi allait ressembler mon pokedex, 
-c'est pourquoi j'ai tout fais pour qu'il y ressemble le plus possible malgré le fait que peu d'informations y soit affichées, et j'adore la tête qu'il a ^^.
+Django est tout nouveau pour moi contrairement aux librairies graphiques donc je me suis plutôt dirigé vers cette solution. \n
+J'ai tout de suite su à quoi allait ressembler mon pokedex, c'est pourquoi j'ai tout fais pour qu'il y ressemble le plus possible malgré le fait que peu d'informations y soit affichées, et j'adore la tête qu'il a ^^. \n
 Je n'avais jamais stocké de données en cache, je pense que j'aurais dû soit apprendre une manière un peu plus complexe de l'utiliser soit utiliser tout simplement une base de donnée,
 parce qu'avec le composant "cache" on est très vite restreint par le nombre de méthode qu'il détient.
 
 # Axe d'amélioration
 
-Régler l'affichage du bouton "Add"
-Faire le front de la gestion d'équipe et ajouter quelques infos en plus comme le type, les HP et je ne sais quoi d'autres
-Mettre en haut à gauche dans la partie grise du pokedex la liste des types sous forme d'icones du pokemon
-Changer la manière dont sont stockés les pokemons de l'équipe
+- Régler l'affichage du bouton "Add"
+- Faire le front de la gestion d'équipe et ajouter quelques infos en plus comme le type, les HP et je ne sais quoi d'autres
+- Mettre en haut à gauche dans la partie grise du pokedex la liste des types sous forme d'icones du pokemon
+- Changer la manière dont sont stockés les pokemons de l'équipe
 
   
